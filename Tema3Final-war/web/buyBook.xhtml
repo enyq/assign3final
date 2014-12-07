@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Buy</title>
+    </head>
+    <body>
+        <f:view>
+
+
+            <h:form>
+                <h1><h:outputText value="Buy"/></h1>
+                <h:panelGrid columns="2">
+                    <h:inputText id="quantity" value="#{orderManagedBean.quantity}" title="Quantity" />
+                </h:panelGrid>
+<!--                <c:set var="user" scope="session" value="#{userManagedBean.user}"/>
+                <c:set var="book" scope="session" value="#{bookManagedBean.book}"/>-->
+                <h:commandButton id="submit" value="Buy" action="#{orderManagedBean.buy}" />
+            </h:form>
+        </f:view>
+
+    </body>
+</html>

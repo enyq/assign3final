@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/ejbs/OrderSessionBean.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/mdb/NotificationBean.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/entities/Books.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/entities/Users.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/ejbs/UserSessionBean.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/entities/Orders.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/entities/OrdersPK.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/ejbs/BookSessionBean.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/src/java/org/utcluj/sd/tema3/mail/SendMail.java</file>
+            <file>file:/C:/Users/Eniko/Documents/NetBeansProjects/Tema3Final/Tema3Final-ejb/setup/glassfish-resources.xml</file>
+        </group>
+    </open-files>
+</project-private>

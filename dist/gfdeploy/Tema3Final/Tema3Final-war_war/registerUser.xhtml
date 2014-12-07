@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Register</title>
+    </head>
+    <body>
+        <f:view>
+
+
+            <h:form>
+                <h1><h:outputText value="Register"/></h1>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="Id:" for="id" />
+                    <h:inputText id="id" value="#{userManagedBean.user.id}" title="Id" required="true" requiredMessage="The Id field is required."/>
+                    <h:outputLabel value="Name:" for="name" />
+                    <h:inputText id="name" value="#{userManagedBean.user.name}" title="Name" />
+                    <h:outputLabel value="Username:" for="username" />
+                    <h:inputText id="username" value="#{userManagedBean.user.username}" title="Username" />
+                    <h:outputLabel value="Password:" for="password" />
+                    <h:inputText id="password" value="#{userManagedBean.user.password}" title="Password" />
+                    <h:outputLabel value="Email:" for="email" />
+                    <h:inputText id="email" value="#{userManagedBean.user.email}" title="Email" />
+                </h:panelGrid>
+                <h:commandButton id="submit" value="submit" action="#{userManagedBean.registerUser}" />
+            </h:form>
+
+        </f:view>
+
+    </body>
+</html>
+
